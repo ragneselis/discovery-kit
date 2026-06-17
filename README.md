@@ -1,10 +1,10 @@
-# discovery-kit
+# so-what - the question your product can't dodge
 
-A product-discovery toolkit for product builders - anyone who owns what gets built and why, whether you ship with code, no-code, or a prototype. A Claude Code plugin that stops you building for a problem nobody has, or missing the problem with what you build.
+A blunt discovery tool that makes you prove the problem is real before you build. A product-discovery toolkit for product builders - anyone who owns what gets built and why, whether you ship with code, no-code, or a prototype. A Claude Code plugin that stops you building for a problem nobody has, or missing the problem with what you build.
 
 ## What it does
 
-discovery-kit forces you through structured product discovery before you start building. It asks hard questions, challenges your assumptions, and won't let you skip ahead until you've clarified what you're building and why.
+so-what forces you through structured product discovery before you start building. It asks hard questions, challenges your assumptions, and won't let you skip ahead until you've clarified what you're building and why.
 
 ### Workflows
 
@@ -19,41 +19,41 @@ Minimum path: Problem Statement + Product Document.
 
 ### Open questions don't get lost
 
-Every unvalidated assumption raised during discovery goes into a shared register (`product/open-questions.md`) instead of dying at the bottom of a document. The hub surfaces them as you work and routes you to whatever closes them. Before it assembles the Product Document, discovery-kit forces a decision on each testable one: answer it, plan how to validate it, or knowingly accept the risk. Nothing reaches the final doc as a silent guess.
+Every unvalidated assumption raised during discovery goes into a shared register (`product/open-questions.md`) instead of dying at the bottom of a document. The hub surfaces them as you work and routes you to whatever closes them. Before it assembles the Product Document, so-what forces a decision on each testable one: answer it, plan how to validate it, or knowingly accept the risk. Nothing reaches the final doc as a silent guess.
 
 ### Interviews are a first-class input
 
-You can drop interview notes or transcripts into `product/interviews/` (or paste them into chat) at any point. discovery-kit picks them up automatically, synthesizes them into your jobs, and stamps each one as handled - and if an interview contradicts an earlier artifact, it routes you back to fix that instead of quietly papering over it.
+You can drop interview notes or transcripts into `product/interviews/` (or paste them into chat) at any point. so-what picks them up automatically, synthesizes them into your jobs, and stamps each one as handled - and if an interview contradicts an earlier artifact, it routes you back to fix that instead of quietly papering over it.
 
 ### Already have a product? Add features the same way
 
-Once a Product Document exists, discovery-kit switches to feature mode. A new feature isn't bolted into the doc directly - it goes through its own scoped discovery from the feature's own problem, its riskiest assumption gets validated like anything else, and it lands in the Product Document's Features backlog as `Status: Open`, flipped to `Done` when built.
+Once a Product Document exists, so-what switches to feature mode. A new feature isn't bolted into the doc directly - it goes through its own scoped discovery from the feature's own problem, its riskiest assumption gets validated like anything else, and it lands in the Product Document's Features backlog as `Status: Open`, flipped to `Done` when built.
 
 ### Out of scope
 
-1. **Analytics & instrumentation** - how to collect, pipe, and analyse user-behaviour data after launch. (discovery-kit DOES define a success signal for each key outcome in the Product Document - it just doesn't build your analytics stack.)
-2. **Building it out** - discovery-kit owns discovery and planning, not the build. When your Product Document is ready, take it to whatever build method you use - write the code yourself, use a no-code tool, make a prototype, or hand it to someone else as the spec. If you happen to be building with code in Claude Code, you can pass the artifacts to coding skills (Obra Superpowers is just one example of a code path) for planning and implementation. 
+1. **Analytics & instrumentation** - how to collect, pipe, and analyse user-behaviour data after launch. (so-what DOES define a success signal for each key outcome in the Product Document - it just doesn't build your analytics stack.)
+2. **Building it out** - so-what owns discovery and planning, not the build. When your Product Document is ready, take it to whatever build method you use - write the code yourself, use a no-code tool, make a prototype, or hand it to someone else as the spec. If you happen to be building with code in Claude Code, you can pass the artifacts to coding skills (Obra Superpowers is just one example of a code path) for planning and implementation. 
 
 ## Install
 
 Copy paste this to Claude Code CLI and run:
 
 ```bash
-claude plugins marketplace add ragneselis/discovery-kit
-claude plugins install discovery-kit@discovery-kit --scope user
+claude plugins marketplace add ragneselis/so-what
+claude plugins install so-what@so-what --scope user
 ```
 
 Restart Claude Code. The plugin activates automatically when you start a new project.
 
 ## How it works
 
-When you signal you want to build something, discovery-kit guides you through product discovery. It asks opinionated multiple-choice questions with recommendations, so you sharpen the thinking behind what you're building - who it's for, what problem it solves, and why it's worth making.
+When you signal you want to build something, so-what guides you through product discovery. It asks opinionated multiple-choice questions with recommendations, so you sharpen the thinking behind what you're building - who it's for, what problem it solves, and why it's worth making.
 
 All artifacts are saved to a `product/` directory in your project.
 
 ## Uninstall
 
 ```bash
-claude plugins uninstall discovery-kit
-claude plugins marketplace remove discovery-kit
+claude plugins uninstall so-what
+claude plugins marketplace remove so-what
 ```

@@ -4,7 +4,7 @@ description: >
   Add a new feature to an existing product (a `product/PRODUCT.md` already exists)
   by running it through scoped discovery from the feature's own problem, then
   recording it in PRODUCT.md as a tracked backlog item with status Open. Use when
-  the user wants to build or add a feature to a product discovery-kit has already taken
+  the user wants to build or add a feature to a product so-what has already taken
   through discovery.
 ---
 
@@ -17,7 +17,7 @@ without discovery.
 
 ## Personality
 
-Every discovery-kit skill follows these rules. They are not optional - they ship inside each skill because a plugin-level CLAUDE.md is not loaded into context at runtime.
+Every so-what skill follows these rules. They are not optional - they ship inside each skill because a plugin-level CLAUDE.md is not loaded into context at runtime.
 
 - **Always use the `AskUserQuestion` tool for questions.** It renders selectable options the user navigates with arrow keys. Never print options as plain text in the chat.
   - 2-4 options per question. The user can always type a custom answer via "Other."
@@ -37,7 +37,7 @@ Every discovery-kit skill follows these rules. They are not optional - they ship
 Read `product/PRODUCT.md`. It must exist - feature mode adds to an existing product.
 
 - If it does not exist: "There's no product document yet, so there's nothing to add a
-  feature to. Let's run discovery for the product first." Then invoke the `discovery-kit`
+  feature to. Let's run discovery for the product first." Then invoke the `so-what`
   root skill and stop.
 
 ## Step 2: Frame the feature's problem
@@ -61,7 +61,7 @@ auto-generated output"). Register it in the shared risk register (see the protoc
 below) as a `(testable -> interview)` item, or the appropriate method tag.
 
 If the assumption is genuinely risky and testable, point the user at
-`discovery-kit:interview-script` to validate it with real people before building - the
+`so-what:interview-script` to validate it with real people before building - the
 same interview lifecycle the product used. A small, cheap, or low-risk feature may not
 warrant interviews; say so and move on.
 
@@ -120,7 +120,7 @@ unresolved unknown in the shared register `product/open-questions.md`.
 
    ```markdown
    # Open Questions
-   > Maintained by discovery-kit - the discovery risk register.
+   > Maintained by so-what - the discovery risk register.
    > Every question exits one way: answered, revised, assigned a method, or accepted as risk.
 
    ## Open
@@ -159,4 +159,4 @@ unresolved unknown in the shared register `product/open-questions.md`.
 
 ## After Writing
 
-Invoke the `discovery-kit` root skill to show updated progress and the feature backlog.
+Invoke the `so-what` root skill to show updated progress and the feature backlog.

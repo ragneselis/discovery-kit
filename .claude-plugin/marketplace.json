@@ -1,5 +1,5 @@
 {
-  "name": "discovery-kit",
+  "name": "so-what",
   "description": "Product discovery for product builders",
   "owner": {
     "name": "Ragne Selis",
@@ -7,7 +7,7 @@
   },
   "plugins": [
     {
-      "name": "discovery-kit",
+      "name": "so-what",
       "description": "Product discovery for product builders - teaches product thinking through opinionated multiple-choice questioning before you build",
       "version": "0.3.0",
       "source": "./",
