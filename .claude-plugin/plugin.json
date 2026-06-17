@@ -1,10 +1,10 @@
 {
-  "name": "simpleprod",
+  "name": "discovery-kit",
   "description": "Hackathon product management - teaches developers product thinking through opinionated multiple-choice questioning before they write code",
-  "version": "0.10.0",
+  "version": "0.1.0",
   "author": {
-    "name": "Mart Parve",
-    "email": "mparve@gmail.com"
+    "name": "Ragne Selis",
+    "email": "ragne.selis@gmail.com"
   },
   "license": "MIT",
   "keywords": [
@@ -12,7 +12,7 @@
     "hackathon",
     "discovery",
     "prd",
-    "user-insights",
+    "jtbd",
     "multiple-choice"
   ]
 }
