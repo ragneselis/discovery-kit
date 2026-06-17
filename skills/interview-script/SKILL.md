@@ -71,7 +71,9 @@ Generate questions that test the riskiest assumptions. Rules:
 
 **Ask about existing solutions and what's wrong with them.** "What do you do about this today?" and "What's the worst part of that?" reveal whether the gap is real or imagined.
 
-**Never describe your product to the interviewee.** The moment you pitch, the interview is over. They'll tell you what you want to hear. The interviewee should never know what you're building.
+**Never describe your product to the interviewee.** The moment you pitch, the interview is over. They'll tell you what you want to hear. The interviewee should never know what you're building - and if you're talking more than they are, you've started pitching.
+
+**No leading questions, no yes/no questions.** "Wouldn't it be useful if..." fishes for a yes, and people are polite enough to give it. Any question that can be answered "yes" is dead - rewrite it so it can't be, and so it names nothing you might build.
 
 **Include a kill question.** One question that, if answered the wrong way, means the idea is dead. This is the question the founder least wants to ask. It directly tests the most critical assumption - the one the entire product depends on.
 
@@ -81,7 +83,10 @@ Frame the script as a switch/timeline interview, not a generic Q&A:
 
 - **Who to interview:** people who recently hired *some* solution for this problem
   (bought a tool, adopted a workaround, switched from one thing to another). A real,
-  recent decision - never a hypothetical "would you use...".
+  recent decision - never a hypothetical "would you use...". Don't stack the list with
+  friendly faces or only people who already use the workaround: include someone with a
+  reason to tell you bad news, and someone who tried a solution and quit. A sample that
+  can only encourage you is rigged.
 - **Walk the timeline backwards:** first thought -> the struggling moment that pushed
   harder -> passive then active looking -> the trigger event -> the decision -> first
   use. The story reveals the real problem; the assumptions ride on top of it.
@@ -99,6 +104,8 @@ Show the full list of questions with their assumption mappings and red flag answ
 Then ask: "Which question scares you most? That's the one you need to ask first."
 
 Wait for the answer. This is not rhetorical.
+
+Then pin down the commitment before any interview happens: "If three people in a row tell you the opposite of what you expected, will you change the build - or explain it away?" Force that answer now, not after - otherwise the interviews just become applause to reinterpret.
 
 ### Step 4: Handle Pushback
 

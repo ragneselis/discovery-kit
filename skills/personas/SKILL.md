@@ -26,6 +26,8 @@ Good: "Solo founder validating an idea on weekends" vs "PM at a 50-person compan
 
 Present your proposed types as one-line descriptions and ask: "Do these feel like the real people who have this problem? Who's missing?"
 
+Distinct personas should fall *out of* the jobs, not be invented alongside them. Two personas are genuinely different only if they pursue the same job under genuinely different constraints. Push back hard on splits that aren't real: "Are these two different people - or the same job under two different constraints? If it's the latter, that's one persona with variations, not two." And cap the count: more than ~3 means no focus, and building for everyone is building for no one. "If you could make exactly one of these people deliriously happy, which one - and why that one?"
+
 Wait for confirmation or correction before proceeding.
 
 ## Step 3: Build each persona through questions
@@ -69,7 +71,7 @@ Push for concrete constraints:
 
 "What progress is this person trying to make? Frame it as: when [situation], I want to [motivation], so I can [outcome]."
 
-If jtbd work exists in `product/jtbd.md`, reference it. The goal should connect to a specific job, not be a generic aspiration.
+If jtbd work exists in `product/jtbd.md`, reference it. The goal should connect to a specific job, not be a generic aspiration. Ask it straight: "What job is this persona hiring you for?" If the persona and the job don't line up, one of them is invented - a rich backstory attached to no clear job is fiction with a CV.
 
 ### 3d: Current workaround
 
@@ -91,6 +93,8 @@ After building each persona, ask: "Do you personally know someone like this? Wha
 - If they can't: flag it explicitly. "This persona might be fictional. That's not automatically bad, but it means you're guessing about their behavior. Mark it as unvalidated and plan to test it."
 
 Do not skip this step. Do not let "I know people like this" slide - push for an actual name or explicit admission that it's a hypothesis.
+
+Two more tells of an invented persona. The persona you *wish* existed - the ideal user with no inconvenient constraints and no reason to say no: if they have no dealbreaker and no awkward constraint, you wrote them, you didn't find them. And the padded persona: "Delete every attribute that wouldn't change a single thing you build. What survives? If it's thin, good - that's the real persona."
 
 ## Step 5: Write the artifact
 

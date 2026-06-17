@@ -71,6 +71,8 @@ Present them **one at a time**. After presenting each job, immediately challenge
 
 For every job, run these checks. Ask the user directly - do not answer for them:
 
+**The test underneath all of them - strip it to the progress:** if a magic button replaced your entire solution, what would the user have *accomplished*? That accomplishment is the job; everything else is mechanism. Hold each job against it.
+
 ### Form check
 First, is it even shaped like a job? It must read grammatically as "When
 [situation], I want to **[verb]**, so I can [outcome]." If the middle clause is a
@@ -81,12 +83,12 @@ verb phrase is usually a hidden solution or a vague wish. Fix the form before
 judging the content.
 
 ### Situation check
-Is the trigger specific enough? "When I'm working" is garbage. "When I'm switching between three client projects before lunch" is real. If the situation could apply to anyone doing anything, it's too vague.
+Is the trigger specific enough? "When I'm working" is garbage. "When I'm switching between three client projects before lunch" is real. If the situation could apply to anyone doing anything, it's too vague. A job too big to act on - "when I run my business, I want to succeed" - is the same failure: true, and useless, because there's no moment it fires.
 
 Ask: "When exactly does this happen? Describe the moment - what just happened, what's in front of them, why now and not five minutes ago?"
 
 ### Motivation check
-Is the motivation a real human desire or a disguised solution? "I want to use a dashboard" is a solution. "I want to see which tasks are blocked" is a motivation. The test: could this motivation be satisfied by a completely different product?
+Is the motivation a real human desire or a disguised solution? "I want to use a dashboard" is a solution. "I want to see which tasks are blocked" is a motivation. The test: could this motivation be satisfied by a completely different product? Would this job still exist if your product were never built? If not, it's a solution wearing a job costume.
 
 Ask: "If the product didn't exist, how would they try to satisfy this motivation today? If the answer is 'they can't,' you might be describing a solution, not a motivation."
 
@@ -99,6 +101,16 @@ Ask: "How would you know if someone achieved this outcome? What would be differe
 Could this job belong to a competitor's user just as easily? If so, the job might be real but it's not differentiated.
 
 Ask: "Does your problem statement give you a unique angle on this job, or would any tool in this space claim the same thing?"
+
+### Emotional/social check
+Is every job purely functional? People hire products to *feel* a way or be *seen* a way, not only to complete a task.
+
+Ask: "Beyond getting it done - what do they want to feel, what do they want to avoid feeling, and how do they want to be seen?"
+
+### Wishful-job check
+Does this job map one-to-one onto a feature you already wanted to build? If the job and the planned feature are the same sentence, you reverse-engineered the job from your solution.
+
+Ask: "Did you find this job, or did you work backwards from the thing you already wanted to build?"
 
 ## Step 4: Refine or discard
 

@@ -75,6 +75,11 @@ Do not accept:
 - **"We'll be faster"** - "Faster at what, specifically? And why can't they just optimize?"
 - **"Our UX will be better"** - "That's an execution bet, not a differentiator. What structural advantage do you have in UX?"
 - **"We'll combine X and Y"** - "Why hasn't anyone done that? Is it because it's hard, because nobody wants it, or because you just haven't found the one that does?"
+- **"We have no competitors"** - always false. "If your product vanished tomorrow, what would your user reach for - a spreadsheet, a manual workaround, doing nothing, hiring someone? That status quo is your real competitor. Put it on the list."
+- **"They're terrible, that's our opening"** - "If they're so bad, why do they have the users and you don't? Name what they get right that you're underrating."
+- **"Nobody does exactly this"** - "Empty space isn't proof of demand. Is it unexplored, or did people try it and quit because it didn't matter?"
+
+If a feature-comparison matrix appears, drop it - winning on green-check count is theatre; users don't buy feature counts. The only comparison that matters is the one structural thing you'd do that they can't or won't.
 
 Keep pushing until the user articulates one of these:
 
@@ -89,6 +94,7 @@ If the user articulates a real differentiator, confirm it by stress-testing:
 - "Could [Competitor X] add this in a sprint? If yes, it's a feature, not a differentiator."
 - "How many people actually need this? Where's the evidence?"
 - "Is this a differentiator or a preference?"
+- "What does your user use today instead of you, and what would have to be true for them to switch? The habit and the switching cost are the real competition - the four forces, not the feature list."
 
 If the user **cannot** articulate a differentiator after genuine effort, say it directly:
 

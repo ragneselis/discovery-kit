@@ -53,15 +53,19 @@ If nothing has been shared yet, ask: "What problem are you trying to solve?"
 
 **Too broad.** "Freelancers struggle with admin." Which freelancers? Designers, consultants, coaches, tradespeople? What aspect of admin - invoicing, scheduling, client comms, taxes? Drill until the scope is real.
 
-**Solution masquerading as a problem.** "People need a better dashboard." That's a solution claim. What's the actual pain? What are they doing today that breaks? What decision can't they make because of missing information?
+**Solution masquerading as a problem.** "People need a better dashboard." That's a solution claim - a product shape smuggled in as a problem. Strip out every word that hints at what you'd build and read what's left: is that still a problem? What's the actual pain? What are they doing today that breaks? What decision can't they make because of missing information?
 
-**No stakes.** "It would be nice if..." Nice is not a problem. What breaks? Who loses money, time, or sleep? If the answer is "nothing really," then there is no problem worth solving.
+**No stakes.** "It would be nice if..." Nice is not a problem. What breaks? Who loses money, time, or sleep? If it actually hurt, they'd already have a workaround - so what are they doing about it today? "Nothing" means it isn't painful enough to build for yet.
 
-**Assumed demand.** "Everyone wants this." Name one person. Have you talked to them? What did they say, in their words - not your interpretation?
+**Assumed demand.** "Everyone wants this." Name one person. Have you talked to them? What did they say, in their words - not your interpretation? And "I had this problem, so others must" doesn't count - you are not a market. Name one *other* real person who hit this in the last month, and what they actually said or did.
 
 **Vague who.** "Users." "Companies." "Teams." These are not people. Who is the one human being sitting at a desk hitting this problem? What's their role? What does their Tuesday look like?
 
 **Circular reasoning.** "The problem is that there's no tool for X." That's not a problem, that's an observation about the market. What pain does the absence of X cause? For whom?
+
+**Symptom, not problem.** "Users churn after onboarding." That's evidence a problem exists, not the problem itself. Keep asking "why" until you hit something you can't explain away.
+
+**The question underneath all of these:** *Who has this, what do they do about it today, and why isn't that good enough?* If they can't answer the middle clause - what people actually do now - the problem is probably imagined.
 
 ### Advancing
 

@@ -76,7 +76,7 @@ Write one paragraph that connects:
 Write the vision out in full in your message so the user can see it, then challenge it:
 
 - "This could describe any product in this space. What's specific to yours?"
-- "If I read this vision to your competitor's team, would they disagree with any of it?"
+- "If I read this vision to your competitor's team, would they disagree with any of it? If not, it's wallpaper - make it sharp enough to argue with."
 - "What's the one sentence a user would say to recommend this to a friend?"
 
 Keep questioning until the vision is specific and differentiated. One question at a time. When the user gives a sharp answer, update the vision and move on.
@@ -103,7 +103,7 @@ For each outcome, expand into concrete capabilities:
 
 Ask the user to rank outcomes by value to the end user. Do not inject your own assumptions about what belongs in scope or out of scope. If the user says authentication matters for their product, it matters. If they say a notification system is high value, it is. Your job is to challenge whether the value claim is grounded in the problem statement - not to impose generic rules about what's important.
 
-The test for each capability: "Does this directly contribute to an outcome the user cares about?" If yes, it stays. If it's unclear, challenge the user to connect it to an outcome.
+The test for each capability: "Does this directly contribute to an outcome the user cares about?" If yes, it stays. If it's unclear, challenge the user to connect it to an outcome. Two sharper versions of the same cut: for each requirement, finish the sentence "...so that the user can ___" - if you can't, cut it. And: "Which problem-statement line or job does this serve?" No line, no requirement - that's how "while we're at it" scope creep gets in.
 
 Write the compiled requirements out in your message so the user can see them, then ask: "Does this match what you'd actually build? Anything missing, or anything here that doesn't serve your users?"
 
@@ -158,6 +158,8 @@ out) rather than asking from scratch.
 Challenge vagueness the way the rest of this skill does: "clean UI" -> which style and
 why; "the cloud" -> which model; "it does X" -> in the first version or later? Write the
 drafted conception out in full in your message, then confirm before writing the artifact.
+
+Before you finish, two whole-doc checks. Name the single riskiest assumption in the entire document - if you're specifying the build in fine detail before that assumption has been tested, you're polishing something that might not survive contact. And the stranger test: hand this doc to someone who wasn't in the room - could they build the right thing, and could they tell you when you were about to build the wrong thing? If not, it's gestured at, not specified.
 
 ## Step 6: Write the artifact
 
